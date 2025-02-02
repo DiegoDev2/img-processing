@@ -121,7 +121,7 @@ func RegisterRoutes(g *gin.Engine) {
 		wg.Wait()
 
 		c.JSON(http.StatusOK, gin.H{
-			"message": "File uploaded, optimized, and converted to WebP successfully",
+			"message": "File uploaded, optimized, and converted to WebP successfully!",
 			"path":    webpPath,
 		})
 	})
